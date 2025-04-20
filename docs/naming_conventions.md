@@ -1,29 +1,29 @@
 
 # **Naming Conventions**
 
-[](https://github.com/DataWithBaraa/sql-data-warehouse-project/blob/main/docs/naming_conventions.md#naming-conventions)
+[](https://github.com/ayusyagol11/sql-data-warehouse-project/blob/main/docs/naming_conventions.md#naming-conventions)
 
 This document outlines the naming conventions used for schemas, tables, views, columns, and other objects in the data warehouse.
 
 ## **Table of Contents**
 
-[](https://github.com/DataWithBaraa/sql-data-warehouse-project/blob/main/docs/naming_conventions.md#table-of-contents)
+[](https://github.com/ayusyagol11/sql-data-warehouse-project/blob/main/docs/naming_conventions.md#table-of-contents)
 
-1.  [General Principles](https://github.com/DataWithBaraa/sql-data-warehouse-project/blob/main/docs/naming_conventions.md#general-principles)
-2.  [Table Naming Conventions](https://github.com/DataWithBaraa/sql-data-warehouse-project/blob/main/docs/naming_conventions.md#table-naming-conventions)
-    -   [Bronze Rules](https://github.com/DataWithBaraa/sql-data-warehouse-project/blob/main/docs/naming_conventions.md#bronze-rules)
-    -   [Silver Rules](https://github.com/DataWithBaraa/sql-data-warehouse-project/blob/main/docs/naming_conventions.md#silver-rules)
-    -   [Gold Rules](https://github.com/DataWithBaraa/sql-data-warehouse-project/blob/main/docs/naming_conventions.md#gold-rules)
-3.  [Column Naming Conventions](https://github.com/DataWithBaraa/sql-data-warehouse-project/blob/main/docs/naming_conventions.md#column-naming-conventions)
-    -   [Surrogate Keys](https://github.com/DataWithBaraa/sql-data-warehouse-project/blob/main/docs/naming_conventions.md#surrogate-keys)
-    -   [Technical Columns](https://github.com/DataWithBaraa/sql-data-warehouse-project/blob/main/docs/naming_conventions.md#technical-columns)
-4.  [Stored Procedure](https://github.com/DataWithBaraa/sql-data-warehouse-project/blob/main/docs/naming_conventions.md#stored-procedure-naming-conventions)
+1.  [General Principles](https://github.com/ayusyagol11/sql-data-warehouse-project/blob/main/docs/naming_conventions.md#general-principles)
+2.  [Table Naming Conventions](https://github.com/ayusyagol11/sql-data-warehouse-project/blob/main/docs/naming_conventions.md#table-naming-conventions)
+    -   [Bronze Rules](https://github.com/ayusyagol11/sql-data-warehouse-project/blob/main/docs/naming_conventions.md#bronze-rules)
+    -   [Silver Rules](https://github.com/ayusyagol11/sql-data-warehouse-project/blob/main/docs/naming_conventions.md#silver-rules)
+    -   [Gold Rules](https://github.com/ayusyagol11/sql-data-warehouse-project/blob/main/docs/naming_conventions.md#gold-rules)
+3.  [Column Naming Conventions](https://github.com/ayusyagol11/sql-data-warehouse-project/blob/main/docs/naming_conventions.md#column-naming-conventions)
+    -   [Surrogate Keys](https://github.com/ayusyagol11/sql-data-warehouse-project/blob/main/docs/naming_conventions.md#surrogate-keys)
+    -   [Technical Columns](https://github.com/ayusyagol11/sql-data-warehouse-project/blob/main/docs/naming_conventions.md#technical-columns)
+4.  [Stored Procedure](https://github.com/ayusyagol11/sql-data-warehouse-project/blob/main/docs/naming_conventions.md#stored-procedure-naming-conventions)
 
 ----------
 
 ## **General Principles**
 
-[](https://github.com/DataWithBaraa/sql-data-warehouse-project/blob/main/docs/naming_conventions.md#general-principles)
+[](https://github.com/ayusyagol11/sql-data-warehouse-project/blob/main/docs/naming_conventions.md#general-principles)
 
 -   **Naming Conventions**: Use snake_case, with lowercase letters and underscores (`_`) to separate words.
 -   **Language**: Use English for all names.
@@ -31,11 +31,11 @@ This document outlines the naming conventions used for schemas, tables, views, c
 
 ## **Table Naming Conventions**
 
-[](https://github.com/DataWithBaraa/sql-data-warehouse-project/blob/main/docs/naming_conventions.md#table-naming-conventions)
+[](https://github.com/ayusyagol11/sql-data-warehouse-project/blob/main/docs/naming_conventions.md#table-naming-conventions)
 
 ### **Bronze Rules**
 
-[](https://github.com/DataWithBaraa/sql-data-warehouse-project/blob/main/docs/naming_conventions.md#bronze-rules)
+[](https://github.com/ayusyagol11/sql-data-warehouse-project/blob/main/docs/naming_conventions.md#bronze-rules)
 
 -   All names must start with the source system name, and table names must match their original names without renaming.
 -   **`<sourcesystem>_<entity>`**
@@ -45,7 +45,7 @@ This document outlines the naming conventions used for schemas, tables, views, c
 
 ### **Silver Rules**
 
-[](https://github.com/DataWithBaraa/sql-data-warehouse-project/blob/main/docs/naming_conventions.md#silver-rules)
+[](https://github.com/ayusyagol11/sql-data-warehouse-project/blob/main/docs/naming_conventions.md#silver-rules)
 
 -   All names must start with the source system name, and table names must match their original names without renaming.
 -   **`<sourcesystem>_<entity>`**
@@ -55,7 +55,7 @@ This document outlines the naming conventions used for schemas, tables, views, c
 
 ### **Gold Rules**
 
-[](https://github.com/DataWithBaraa/sql-data-warehouse-project/blob/main/docs/naming_conventions.md#gold-rules)
+[](https://github.com/ayusyagol11/sql-data-warehouse-project/blob/main/docs/naming_conventions.md#gold-rules)
 
 -   All names must use meaningful, business-aligned names for tables, starting with the category prefix.
 -   **`<category>_<entity>`**
@@ -67,7 +67,7 @@ This document outlines the naming conventions used for schemas, tables, views, c
 
 #### **Glossary of Category Patterns**
 
-[](https://github.com/DataWithBaraa/sql-data-warehouse-project/blob/main/docs/naming_conventions.md#glossary-of-category-patterns)
+[](https://github.com/ayusyagol11/sql-data-warehouse-project/blob/main/docs/naming_conventions.md#glossary-of-category-patterns)
 
 |Pattern|Meaning|Example(s)
 |--|--|--|
@@ -77,11 +77,11 @@ This document outlines the naming conventions used for schemas, tables, views, c
 
 ## **Column Naming Conventions**
 
-[](https://github.com/DataWithBaraa/sql-data-warehouse-project/blob/main/docs/naming_conventions.md#column-naming-conventions)
+[](https://github.com/ayusyagol11/sql-data-warehouse-project/blob/main/docs/naming_conventions.md#column-naming-conventions)
 
 ### **Surrogate Keys**
 
-[](https://github.com/DataWithBaraa/sql-data-warehouse-project/blob/main/docs/naming_conventions.md#surrogate-keys)
+[](https://github.com/ayusyagol11/sql-data-warehouse-project/blob/main/docs/naming_conventions.md#surrogate-keys)
 
 -   All primary keys in dimension tables must use the suffix  `_key`.
 -   **`<table_name>_key`**
@@ -91,7 +91,7 @@ This document outlines the naming conventions used for schemas, tables, views, c
 
 ### **Technical Columns**
 
-[](https://github.com/DataWithBaraa/sql-data-warehouse-project/blob/main/docs/naming_conventions.md#technical-columns)
+[](https://github.com/ayusyagol11/sql-data-warehouse-project/blob/main/docs/naming_conventions.md#technical-columns)
 
 -   All technical columns must start with the prefix  `dwh_`, followed by a descriptive name indicating the column's purpose.
 -   **`dwh_<column_name>`**
@@ -101,7 +101,7 @@ This document outlines the naming conventions used for schemas, tables, views, c
 
 ## **Stored Procedure**
 
-[](https://github.com/DataWithBaraa/sql-data-warehouse-project/blob/main/docs/naming_conventions.md#stored-procedure)
+[](https://github.com/ayusyagol11/sql-data-warehouse-project/blob/main/docs/naming_conventions.md#stored-procedure)
 
 -   All stored procedures used for loading data must follow the naming pattern:
     
