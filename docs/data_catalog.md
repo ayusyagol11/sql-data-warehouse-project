@@ -27,7 +27,7 @@ Stores customer details enriched with **demographic** and **geographic** data.
 |create_date|DATE| The date and time when the customer record was created in the system.
 
 ----------
-### 📦 gold.dim_products**
+### 📦 gold.dim_products
 
 **Purpose**:
 Provides detailed information about **products** and their **attributes**.
@@ -48,7 +48,7 @@ Provides detailed information about **products** and their **attributes**.
 |start_date|DATE|Date when the product became available for sale or use.
 
 ---------
-### 🧾 gold.fact_sales**
+### 🧾 gold.fact_sales
 
 **Purpose**:
 Stores **transactional sales data** for detailed **analytical** purposes.
